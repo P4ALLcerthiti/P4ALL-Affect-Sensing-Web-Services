@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\cpprest lib">
+      <UniqueIdentifier>{c3719fb9-d6ae-4cc3-a07f-7027577bb263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\cpprest lib\cpprest">
+      <UniqueIdentifier>{45f7084f-d0cc-4e9e-98cd-a8046fceac96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\cpprest lib\pplx">
+      <UniqueIdentifier>{c2691471-6763-4175-a303-6af6e2019363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\cpprest lib\cpprest\details">
+      <UniqueIdentifier>{faf33870-5f33-46e1-bfd8-c332c34b5eb8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\astreambuf.h">
+      <Filter>Header Files\cpprest lib\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\asyncrt_utils.h">
+      <Filter>Header Files\cpprest lib\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\base_uri.h">
+      <Filter>Header Files\cpprest lib\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\containerstream.h">
+      <Filter>Header Files\cpprest lib\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\filestream.h">
+      <Filter>Header Files\cpprest lib\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\http_client.h">
+      <Filter>Header Files\cpprest lib\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\http_headers.h">
+      <Filter>Header Files\cpprest lib\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\http_listener.h">
+      <Filter>Header Files\cpprest lib\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\http_msg.h">
+      <Filter>Header Files\cpprest lib\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\interopstream.h">
+      <Filter>Header Files\cpprest lib\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\json.h">
+      <Filter>Header Files\cpprest lib\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\oauth1.h">
+      <Filter>Header Files\cpprest lib\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\oauth2.h">
+      <Filter>Header Files\cpprest lib\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\producerconsumerstream.h">
+      <Filter>Header Files\cpprest lib\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\rawptrstream.h">
+      <Filter>Header Files\cpprest lib\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\streams.h">
+      <Filter>Header Files\cpprest lib\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\uri.h">
+      <Filter>Header Files\cpprest lib\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\uri_builder.h">
+      <Filter>Header Files\cpprest lib\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\version.h">
+      <Filter>Header Files\cpprest lib\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\ws_client.h">
+      <Filter>Header Files\cpprest lib\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\ws_msg.h">
+      <Filter>Header Files\cpprest lib\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\details\basic_types.h">
+      <Filter>Header Files\cpprest lib\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\details\cpprest_compat.h">
+      <Filter>Header Files\cpprest lib\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\details\fileio.h">
+      <Filter>Header Files\cpprest lib\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\details\http_client_impl.h">
+      <Filter>Header Files\cpprest lib\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\details\http_helpers.h">
+      <Filter>Header Files\cpprest lib\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\details\http_server.h">
+      <Filter>Header Files\cpprest lib\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\details\http_server_api.h">
+      <Filter>Header Files\cpprest lib\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\details\http_server_asio.h">
+      <Filter>Header Files\cpprest lib\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\details\http_server_httpsys.h">
+      <Filter>Header Files\cpprest lib\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\details\nosal.h">
+      <Filter>Header Files\cpprest lib\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\details\resource.h">
+      <Filter>Header Files\cpprest lib\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\details\SafeInt3.hpp">
+      <Filter>Header Files\cpprest lib\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\details\uri_parser.h">
+      <Filter>Header Files\cpprest lib\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\details\web_utilities.h">
+      <Filter>Header Files\cpprest lib\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\details\x509_cert_utilities.h">
+      <Filter>Header Files\cpprest lib\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\pplx\pplx.h">
+      <Filter>Header Files\cpprest lib\pplx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\pplx\pplxcancellation_token.h">
+      <Filter>Header Files\cpprest lib\pplx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\pplx\pplxconv.h">
+      <Filter>Header Files\cpprest lib\pplx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\pplx\pplxinterface.h">
+      <Filter>Header Files\cpprest lib\pplx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\pplx\pplxlinux.h">
+      <Filter>Header Files\cpprest lib\pplx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\pplx\pplxtasks.h">
+      <Filter>Header Files\cpprest lib\pplx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\pplx\pplxwin.h">
+      <Filter>Header Files\cpprest lib\pplx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cpprest.x86.120.2.8.0\Include\pplx\threadpool.h">
+      <Filter>Header Files\cpprest lib\pplx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Affect_Sensing_Web_Service.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="affect_sensing_module.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="affect_sensing_module_structures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Affect_Sensing_Web_Service.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="affect_sensing_module.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\lib\cpprest.x86.120.2.8.0\Include\cpprest\details\http_constants.dat">
+      <Filter>Header Files\cpprest lib\cpprest\details</Filter>
+    </None>
+  </ItemGroup>
+</Project>
