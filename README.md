@@ -38,7 +38,7 @@ lib ->	boost_1_61_0(32)		->	include
    Templates of these JSON files exist inside the [JSON Template Files](https://github.com/P4ALLcerthiti/P4ALL-Affect-Sensing-Web-Services/tree/master/JSON%20Files/JSON%20Files%20with%20Various%20Intervals) folder.
 
 i) The first Web Service is a one-time process. The user provides the data and the timestamps for both the Rest and the Normal states and the server returns the stress results for every segment of time inside the user defined seconds between segments.
-For the *Detect Stress* (http://160.40.50.209:8080/Affect_Sensing_Module/detect_stress) web service, the next JSON File must be created according to [this template](https://github.com/P4ALLcerthiti/P4ALL-Affect-Sensing-Web-Services/blob/master/JSON%20Files/Templates/template_detect_stress.json):
+For the *Detect Stress* (http://localhost:8080/Affect_Sensing_Module/detect_stress) web service, the next JSON File must be created according to [this template](https://github.com/P4ALLcerthiti/P4ALL-Affect-Sensing-Web-Services/blob/master/JSON%20Files/Templates/template_detect_stress.json):
    
 ```
 {
@@ -67,7 +67,7 @@ For the *Detect Stress* (http://160.40.50.209:8080/Affect_Sensing_Module/detect_
    
 
 ii) The second Web Service is creating the a feature file with the provided Rest state data inside the server database for faster use in the future.
-For the *Post_stress_data_to_DB* (http://160.40.50.209:8080/Affect_Sensing_Module/post_stress_data_to_DB) web service, the [template JSON File](https://github.com/P4ALLcerthiti/P4ALL-Affect-Sensing-Web-Services/blob/master/JSON%20Files/Templates/template_post_stress_data_to_DB.json)  looks like this :
+For the *Post_stress_data_to_DB* (http://localhost:8080/Affect_Sensing_Module/post_stress_data_to_DB) web service, the [template JSON File](https://github.com/P4ALLcerthiti/P4ALL-Affect-Sensing-Web-Services/blob/master/JSON%20Files/Templates/template_post_stress_data_to_DB.json)  looks like this :
 	
 ```
 {
@@ -86,7 +86,7 @@ In particular :
 - *Subject_ID* : the name of the patient and the name of the file that will be created inside the server database.
    
 iii) The third and last Web Service uses the stored feature file for the specific patients rest state recording, to detect stress for the Normal state recording provided.
-For the *Detect_stress_from_DB* (http://160.40.50.209:8080/Affect_Sensing_Module/detect_stress_from_DB) web saerbice, the next JSON File must be created according to [this template](https://github.com/P4ALLcerthiti/P4ALL-Affect-Sensing-Web-Services/blob/master/JSON%20Files/Templates/template_detect_stress_from_DB.json):
+For the *Detect_stress_from_DB* (http://localhost:8080/Affect_Sensing_Module/detect_stress_from_DB) web saerbice, the next JSON File must be created according to [this template](https://github.com/P4ALLcerthiti/P4ALL-Affect-Sensing-Web-Services/blob/master/JSON%20Files/Templates/template_detect_stress_from_DB.json):
 
 ```
 {
@@ -105,7 +105,11 @@ In particular :
 - *Time_IBI_Normal* : the Timestamp for the IBI values in the Normal state
 - *Data_GSR_Normal* : the values from the GSR Normal recordings
 - *Data_IBI_Normal* : the values from the IBI Normal recordings
-	
+
+
+For all the Web Services there is a working server listening at 160.40.50.209:8080 .
+
+
 ## Funding Acknowledgement
 
 The research leading to these results has received funding from the European Union's Seventh Framework Programme (FP7) under grant agreement No.610510
