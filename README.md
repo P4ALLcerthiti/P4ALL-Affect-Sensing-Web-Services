@@ -86,7 +86,7 @@ In particular :
 - *Subject_ID* : the name of the patient and the name of the file that will be created inside the server database.
    
 iii) The third and last Web Service uses the stored feature file for the specific patients rest state recording, to detect stress for the Normal state recording provided.
-For the *Detect_stress_from_DB* (http://localhost:8080/Affect_Sensing_Module/detect_stress_from_DB) web saerbice, the next JSON File must be created according to [this template](https://github.com/P4ALLcerthiti/P4ALL-Affect-Sensing-Web-Services/blob/master/JSON%20Files/Templates/template_detect_stress_from_DB.json):
+For the *Detect_stress_from_DB* (http://localhost:8080/Affect_Sensing_Module/detect_stress_from_DB) web service, the next JSON File must be created according to [this template](https://github.com/P4ALLcerthiti/P4ALL-Affect-Sensing-Web-Services/blob/master/JSON%20Files/Templates/template_detect_stress_from_DB.json):
 
 ```
 {
@@ -105,6 +105,7 @@ In particular :
 - *Time_IBI_Normal* : the Timestamp for the IBI values in the Normal state
 - *Data_GSR_Normal* : the values from the GSR Normal recordings
 - *Data_IBI_Normal* : the values from the IBI Normal recordings
+
 
 
 For all the Web Services there is a working server listening at 160.40.50.209:8080 .
