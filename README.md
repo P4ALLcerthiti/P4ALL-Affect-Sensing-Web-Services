@@ -110,7 +110,7 @@ In particular :
 
 For all the Web Services there is a working server listening at 160.40.50.209:8080 .
 
-Usage examples for a;; three web services using [curl](https://curl.haxx.se/) :
+Usage examples for all three web services using [curl](https://curl.haxx.se/) :
 
 ```
 curl -X POST -H "Content-Type: application/json" "http://localhost:8080/Affect_Sensing_Module/detect_stress" -d '{myJSON1.json}' 
