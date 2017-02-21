@@ -26,10 +26,10 @@ lib ->	boost_1_61_0(32)		->	include
 									
 ```
 
-3) Run Microsoft Visual Studio 2013 or newer edition under administrative rights
-   The project has been tested with Microsoft Visual Studio 2015 Community Edition.
+3) Run Microsoft Visual Studio 2013 or newer edition under administrative rights.
+The project has been tested with Microsoft Visual Studio 2015 Community Edition.
 
-4) In the "Server.cpp" file change [this](https://github.com/P4ALLcerthiti/P4ALL-Affect-Sensing-Web-Services/blob/master/Affect_Sensing_Web_Service/Server.cpp#L76) line of code according to your pcs IP adress and this line for the [port](https://github.com/P4ALLcerthiti/P4ALL-Affect-Sensing-Web-Services/blob/master/Affect_Sensing_Web_Service/Server.cpp#L74) you want to use.
+4) In the "Server.cpp" file change [this](https://github.com/P4ALLcerthiti/P4ALL-Affect-Sensing-Web-Services/blob/master/Affect_Sensing_Web_Service/Server.cpp#L76) line of code according to your pcs IP adress and [this](https://github.com/P4ALLcerthiti/P4ALL-Affect-Sensing-Web-Services/blob/master/Affect_Sensing_Web_Service/Server.cpp#L74) line for the port you want to use.
 
 5) Build and run the programm.
    The Server window should appear.
